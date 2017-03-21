@@ -1,0 +1,7 @@
+platform :ios, '8.0'
+
+target 'Environment' do
+pod 'AFNetworking', '~> 3.0'
+pod ‘FMDB’, '~> 2.6.2’ 
+pod ’SVProgressHUD’, ‘~> 2.0.3’
+end
