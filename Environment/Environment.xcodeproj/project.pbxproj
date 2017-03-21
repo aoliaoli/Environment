@@ -8,6 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		4D51434C26BC8D191EA5870E /* libPods-Environment.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AB4DEABE3B2F378E9F3BBCF /* libPods-Environment.a */; };
+		C61E30171E81CF880032D333 /* libEZOpenSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C61E30161E81CF880032D333 /* libEZOpenSDK.a */; };
+		C61E30191E81CFE60032D333 /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C61E30181E81CFE60032D333 /* libstdc++.6.0.9.tbd */; };
+		C61E301B1E81CFFC0032D333 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C61E301A1E81CFFC0032D333 /* CoreMedia.framework */; };
+		C61E301D1E81D00B0032D333 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C61E301C1E81D00B0032D333 /* AudioToolbox.framework */; };
+		C61E301F1E81D0180032D333 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C61E301E1E81D0180032D333 /* VideoToolbox.framework */; };
+		C61E30211E81D0250032D333 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C61E30201E81D0250032D333 /* GLKit.framework */; };
+		C61E30231E81D02E0032D333 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C61E30221E81D02E0032D333 /* OpenAL.framework */; };
+		C61E30251E81D0460032D333 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C61E30241E81D0460032D333 /* MobileCoreServices.framework */; };
+		C61E30271E81D04F0032D333 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C61E30261E81D04F0032D333 /* SystemConfiguration.framework */; };
+		C61E30291E81D0740032D333 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C61E30281E81D0740032D333 /* CoreTelephony.framework */; };
+		C61E302B1E81D07C0032D333 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C61E302A1E81D07C0032D333 /* AVFoundation.framework */; };
+		C61E302D1E81D0900032D333 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C61E302C1E81D0900032D333 /* libc++.tbd */; };
+		C61E302F1E81D0A50032D333 /* libiconv.2.4.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C61E302E1E81D0A50032D333 /* libiconv.2.4.0.tbd */; };
 		E905495B1E7B751800B07DCB /* homeModelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E90549591E7B751800B07DCB /* homeModelCell.m */; };
 		E905495C1E7B751800B07DCB /* homeModelCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E905495A1E7B751800B07DCB /* homeModelCell.xib */; };
 		E905495F1E7B7BEB00B07DCB /* homeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E905495E1E7B7BEB00B07DCB /* homeModel.m */; };
@@ -63,6 +76,37 @@
 		0AB4DEABE3B2F378E9F3BBCF /* libPods-Environment.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Environment.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		642245968417A4D3B723FB17 /* Pods-Environment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Environment.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Environment/Pods-Environment.debug.xcconfig"; sourceTree = "<group>"; };
 		775F606A514085FC2F4995D7 /* Pods-Environment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Environment.release.xcconfig"; path = "Pods/Target Support Files/Pods-Environment/Pods-Environment.release.xcconfig"; sourceTree = "<group>"; };
+		C61E30041E81CF880032D333 /* EZAccessToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZAccessToken.h; sourceTree = "<group>"; };
+		C61E30051E81CF880032D333 /* EZAlarmInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZAlarmInfo.h; sourceTree = "<group>"; };
+		C61E30061E81CF880032D333 /* EZAreaInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZAreaInfo.h; sourceTree = "<group>"; };
+		C61E30071E81CF880032D333 /* EZCameraInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZCameraInfo.h; sourceTree = "<group>"; };
+		C61E30081E81CF880032D333 /* EZCloudRecordFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZCloudRecordFile.h; sourceTree = "<group>"; };
+		C61E30091E81CF880032D333 /* EZConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZConstants.h; sourceTree = "<group>"; };
+		C61E300A1E81CF880032D333 /* EZDetectorInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZDetectorInfo.h; sourceTree = "<group>"; };
+		C61E300B1E81CF880032D333 /* EZDeviceInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZDeviceInfo.h; sourceTree = "<group>"; };
+		C61E300C1E81CF880032D333 /* EZDeviceRecordFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZDeviceRecordFile.h; sourceTree = "<group>"; };
+		C61E300D1E81CF880032D333 /* EZDeviceUpgradeStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZDeviceUpgradeStatus.h; sourceTree = "<group>"; };
+		C61E300E1E81CF880032D333 /* EZDeviceVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZDeviceVersion.h; sourceTree = "<group>"; };
+		C61E300F1E81CF880032D333 /* EZGlobalSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZGlobalSDK.h; sourceTree = "<group>"; };
+		C61E30101E81CF880032D333 /* EZLeaveMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZLeaveMessage.h; sourceTree = "<group>"; };
+		C61E30111E81CF880032D333 /* EZOpenSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZOpenSDK.h; sourceTree = "<group>"; };
+		C61E30121E81CF880032D333 /* EZPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZPlayer.h; sourceTree = "<group>"; };
+		C61E30131E81CF880032D333 /* EZProbeDeviceInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZProbeDeviceInfo.h; sourceTree = "<group>"; };
+		C61E30141E81CF880032D333 /* EZStorageInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZStorageInfo.h; sourceTree = "<group>"; };
+		C61E30151E81CF880032D333 /* EZUserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZUserInfo.h; sourceTree = "<group>"; };
+		C61E30161E81CF880032D333 /* libEZOpenSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libEZOpenSDK.a; sourceTree = "<group>"; };
+		C61E30181E81CFE60032D333 /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
+		C61E301A1E81CFFC0032D333 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		C61E301C1E81D00B0032D333 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		C61E301E1E81D0180032D333 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		C61E30201E81D0250032D333 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		C61E30221E81D02E0032D333 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
+		C61E30241E81D0460032D333 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		C61E30261E81D04F0032D333 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		C61E30281E81D0740032D333 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		C61E302A1E81D07C0032D333 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		C61E302C1E81D0900032D333 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		C61E302E1E81D0A50032D333 /* libiconv.2.4.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.2.4.0.tbd; path = usr/lib/libiconv.2.4.0.tbd; sourceTree = SDKROOT; };
 		E90549581E7B751800B07DCB /* homeModelCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = homeModelCell.h; sourceTree = "<group>"; };
 		E90549591E7B751800B07DCB /* homeModelCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = homeModelCell.m; sourceTree = "<group>"; };
 		E905495A1E7B751800B07DCB /* homeModelCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = homeModelCell.xib; sourceTree = "<group>"; };
@@ -129,7 +173,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C61E302F1E81D0A50032D333 /* libiconv.2.4.0.tbd in Frameworks */,
+				C61E302D1E81D0900032D333 /* libc++.tbd in Frameworks */,
+				C61E302B1E81D07C0032D333 /* AVFoundation.framework in Frameworks */,
+				C61E30291E81D0740032D333 /* CoreTelephony.framework in Frameworks */,
+				C61E30271E81D04F0032D333 /* SystemConfiguration.framework in Frameworks */,
+				C61E30251E81D0460032D333 /* MobileCoreServices.framework in Frameworks */,
+				C61E30231E81D02E0032D333 /* OpenAL.framework in Frameworks */,
+				C61E30211E81D0250032D333 /* GLKit.framework in Frameworks */,
+				C61E301F1E81D0180032D333 /* VideoToolbox.framework in Frameworks */,
+				C61E301D1E81D00B0032D333 /* AudioToolbox.framework in Frameworks */,
+				C61E301B1E81CFFC0032D333 /* CoreMedia.framework in Frameworks */,
+				C61E30191E81CFE60032D333 /* libstdc++.6.0.9.tbd in Frameworks */,
 				4D51434C26BC8D191EA5870E /* libPods-Environment.a in Frameworks */,
+				C61E30171E81CF880032D333 /* libEZOpenSDK.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,9 +219,55 @@
 		AF317DC92A90AAA626B4D0EE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C61E302E1E81D0A50032D333 /* libiconv.2.4.0.tbd */,
+				C61E302C1E81D0900032D333 /* libc++.tbd */,
+				C61E302A1E81D07C0032D333 /* AVFoundation.framework */,
+				C61E30281E81D0740032D333 /* CoreTelephony.framework */,
+				C61E30261E81D04F0032D333 /* SystemConfiguration.framework */,
+				C61E30241E81D0460032D333 /* MobileCoreServices.framework */,
+				C61E30221E81D02E0032D333 /* OpenAL.framework */,
+				C61E30201E81D0250032D333 /* GLKit.framework */,
+				C61E301E1E81D0180032D333 /* VideoToolbox.framework */,
+				C61E301C1E81D00B0032D333 /* AudioToolbox.framework */,
+				C61E301A1E81CFFC0032D333 /* CoreMedia.framework */,
+				C61E30181E81CFE60032D333 /* libstdc++.6.0.9.tbd */,
 				0AB4DEABE3B2F378E9F3BBCF /* libPods-Environment.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C61E30021E81CF880032D333 /* SDK */ = {
+			isa = PBXGroup;
+			children = (
+				C61E30031E81CF880032D333 /* include */,
+				C61E30161E81CF880032D333 /* libEZOpenSDK.a */,
+			);
+			path = SDK;
+			sourceTree = "<group>";
+		};
+		C61E30031E81CF880032D333 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				C61E30041E81CF880032D333 /* EZAccessToken.h */,
+				C61E30051E81CF880032D333 /* EZAlarmInfo.h */,
+				C61E30061E81CF880032D333 /* EZAreaInfo.h */,
+				C61E30071E81CF880032D333 /* EZCameraInfo.h */,
+				C61E30081E81CF880032D333 /* EZCloudRecordFile.h */,
+				C61E30091E81CF880032D333 /* EZConstants.h */,
+				C61E300A1E81CF880032D333 /* EZDetectorInfo.h */,
+				C61E300B1E81CF880032D333 /* EZDeviceInfo.h */,
+				C61E300C1E81CF880032D333 /* EZDeviceRecordFile.h */,
+				C61E300D1E81CF880032D333 /* EZDeviceUpgradeStatus.h */,
+				C61E300E1E81CF880032D333 /* EZDeviceVersion.h */,
+				C61E300F1E81CF880032D333 /* EZGlobalSDK.h */,
+				C61E30101E81CF880032D333 /* EZLeaveMessage.h */,
+				C61E30111E81CF880032D333 /* EZOpenSDK.h */,
+				C61E30121E81CF880032D333 /* EZPlayer.h */,
+				C61E30131E81CF880032D333 /* EZProbeDeviceInfo.h */,
+				C61E30141E81CF880032D333 /* EZStorageInfo.h */,
+				C61E30151E81CF880032D333 /* EZUserInfo.h */,
+			);
+			path = include;
 			sourceTree = "<group>";
 		};
 		E919BC201E822272009D46B1 /* BMM */ = {
@@ -212,6 +315,7 @@
 		E93055521E72412100D3D2C0 = {
 			isa = PBXGroup;
 			children = (
+				C61E30021E81CF880032D333 /* SDK */,
 				E930555D1E72412100D3D2C0 /* Environment */,
 				E93055771E72412100D3D2C0 /* EnvironmentTests */,
 				E93055821E72412100D3D2C0 /* EnvironmentUITests */,
@@ -731,6 +835,10 @@
 				GCC_PREFIX_HEADER = Environment/Tools/PrefixHeader.pch;
 				INFOPLIST_FILE = Environment/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SDK",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = yuanfang.com.Environment;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -744,6 +852,10 @@
 				GCC_PREFIX_HEADER = Environment/Tools/PrefixHeader.pch;
 				INFOPLIST_FILE = Environment/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SDK",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = yuanfang.com.Environment;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
